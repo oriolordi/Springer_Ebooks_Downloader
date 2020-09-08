@@ -3,7 +3,7 @@
 # Author: Oriol Ordi
 
 # This script automates the download of the Ebooks that were made free and
-# publicly available during the coronavirus lockdown
+# publicly available during the coronavirus
 
 # NOTE: the pdf containing the list of the books must be in the same folder
 # as this script (or the pdf_path in the script must be changed)
