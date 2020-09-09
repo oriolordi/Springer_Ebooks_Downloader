@@ -55,16 +55,14 @@ def process_pdf(pdf_file):
 try:
     with open(pdf_path, 'rb') as pdf_file:
         text_split_flat = process_pdf(pdf_file)
+        # Print a message letting know that the program is starting
+        print('Starting to download the Springer Ebooks...')
+        print('Warning: The books will be saved as pdf files in the same folder that the program was launched from')
+        print('\n')
 except:
     print('Error: File "Springer Ebooks.pdf" not found')
     print('\n')
     input('Press enter key to quit')
-
-
-# Print a message letting know that the program is starting
-print('Starting to download the Springer Ebooks...')
-print('Warning: The books will be saved as pdf files in the same folder that the program was launched from')
-print('\n')
 
 
 # Loop the list searching for each book number and saving the book name and link
